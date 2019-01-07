@@ -14,6 +14,9 @@
 		2314640021E33503008AEA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231463FE21E33503008AEA30 /* LaunchScreen.storyboard */; };
 		2314640B21E33503008AEA30 /* QRScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314640A21E33503008AEA30 /* QRScannerTests.swift */; };
 		2314641621E33503008AEA30 /* QRScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314641521E33503008AEA30 /* QRScannerUITests.swift */; };
+		2314642421E33545008AEA30 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314642321E33545008AEA30 /* QRScannerViewController.swift */; };
+		2314642621E33561008AEA30 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2314642521E33561008AEA30 /* README.md */; };
+		2314642821E33571008AEA30 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2314642721E33571008AEA30 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2314641121E33503008AEA30 /* QRScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2314641521E33503008AEA30 /* QRScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerUITests.swift; sourceTree = "<group>"; };
 		2314641721E33503008AEA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2314642321E33545008AEA30 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		2314642521E33561008AEA30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2314642721E33571008AEA30 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		231463E921E33501008AEA30 = {
 			isa = PBXGroup;
 			children = (
+				2314642521E33561008AEA30 /* README.md */,
 				231463F421E33501008AEA30 /* QRScanner */,
 				2314640921E33503008AEA30 /* QRScannerTests */,
 				2314641421E33503008AEA30 /* QRScannerUITests */,
@@ -97,6 +104,8 @@
 		231463F421E33501008AEA30 /* QRScanner */ = {
 			isa = PBXGroup;
 			children = (
+				2314642721E33571008AEA30 /* .gitignore */,
+				2314642321E33545008AEA30 /* QRScannerViewController.swift */,
 				231463F521E33501008AEA30 /* AppDelegate.swift */,
 				231463F721E33501008AEA30 /* ViewController.swift */,
 				231463F921E33501008AEA30 /* Main.storyboard */,
@@ -229,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2314642821E33571008AEA30 /* .gitignore in Resources */,
 				2314640021E33503008AEA30 /* LaunchScreen.storyboard in Resources */,
 				231463FD21E33503008AEA30 /* Assets.xcassets in Resources */,
+				2314642621E33561008AEA30 /* README.md in Resources */,
 				231463FB21E33501008AEA30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +269,7 @@
 			files = (
 				231463F821E33501008AEA30 /* ViewController.swift in Sources */,
 				231463F621E33501008AEA30 /* AppDelegate.swift in Sources */,
+				2314642421E33545008AEA30 /* QRScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
